@@ -2,7 +2,8 @@ let questions = [];
 let current = null;
 
 async function loadQuestions() {
-  const res = await fetch('data/merged_questions.json');
+	#  const res = await fetch('data/merged_questions.json');
+  const res = await fetch('data/questions.json');
   questions = await res.json();
   showNext();
 }
