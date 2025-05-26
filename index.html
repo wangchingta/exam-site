@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>模擬測驗</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <!-- 讓手機自動按裝置寬度縮放 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>永續發展模擬測驗</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="container">
     <h1>永續發展模擬測驗</h1>
     <div id="quiz">
+      <!-- 題目文字 -->
       <p id="question-text"></p>
+      <!-- 選項表單 -->
       <form id="options-form"></form>
+      <!-- 送出按鈕 -->
       <button id="submit-btn">送出</button>
+      <!-- 答案顯示 -->
       <p id="answer-display" class="hidden"></p>
+      <!-- 下一題按鈕 -->
       <button id="next-btn" class="hidden">下一題</button>
     </div>
   </div>
+
   <script src="js/app.js"></script>
 </body>
 </html>
