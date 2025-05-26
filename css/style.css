@@ -1,0 +1,10 @@
+body { font-family: sans-serif; background: #f6f6f6; }
+.container { max-width: 600px; margin: 50px auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+h1 { text-align: center; }
+#options-form label { display: block; margin: 10px 0; }
+button { margin-top: 15px; padding: 10px 20px; border:none; border-radius:5px; cursor:pointer; }
+#submit-btn { background: #007bff; color: #fff; }
+#next-btn { background: #28a745; color: #fff; }
+.hidden { display: none; }
+#answer-display { margin-top: 15px; font-weight: bold; }
+
