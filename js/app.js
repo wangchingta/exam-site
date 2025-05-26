@@ -4,7 +4,7 @@ let currentQ = null;
 // 讀取題庫 JSON
 async function loadQuestions() {
   try {
-    const res = await fetch('data/questions.json');
+    const res = await fetch('data/merged_questions.json');
     if (!res.ok) throw new Error(`載入失敗：${res.status}`);
     questions = await res.json();
     showNextQuestion();
